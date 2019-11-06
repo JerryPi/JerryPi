@@ -86,6 +86,7 @@ int InputPosition(){
         return Position;
     }
     catch(std::exception &E){
+		// test
         return -1;   
     }
 }
